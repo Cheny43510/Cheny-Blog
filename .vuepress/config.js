@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "blog",
+  "title": "Cheny's Blog",
   "description": "Cheny's Blog",
   "dest": "public",
   "head": [
@@ -90,7 +90,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "cheny",
+    "author": "夜屿",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
     "startYear": "2017"
