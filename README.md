@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: <Typewriter />
+heroText: Cheny's Blog
+tagline: 自律自信冷静
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -25,3 +25,5 @@ features:
 - title: Tomorrow
   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 ---
+
+<Typewriter />
