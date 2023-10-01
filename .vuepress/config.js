@@ -47,7 +47,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/cheny43510",
             "icon": "reco-github"
           }
         ]
@@ -92,8 +92,8 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "夜屿",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
-    "startYear": "2017"
+    "record": "Cheny's Blog",
+    "startYear": "2020"
   },
   "markdown": {
     "lineNumbers": true
