@@ -98,7 +98,7 @@ module.exports = {
     "logo": "/logo.jpg",
     "search": true,
     "sidebar": { mode: 'structuring', collapsable: true},
-    "sidebarDepth": 4,
+    "sidebarDepth": 6,
     "sidebarOpen": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
