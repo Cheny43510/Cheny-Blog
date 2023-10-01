@@ -1,9 +1,9 @@
-// index.styl 文件内容
+/* index.styl 文件内容 */
 .content {
-  font-size 30px
+  font-size:30px
 }
 
-// 首页标签列表样式
+/* 首页标签列表样式 */
 .abstract-item {
   background-color: #acdcfd3d !important;  
   transition: all .5s;
@@ -13,12 +13,12 @@
     transition: all .5s;
 }
 
-// 右侧文章标题导航栏
+/* 右侧文章标题导航栏 */
 a.sidebar-link {
   font-size: 15px !important;
 }
 
-// 时间线样式
+/* 时间线样式 */
 .timeline-wrapper .year {
   margin: 80px 0px 20px !important;
   font-size: 27px !important;
