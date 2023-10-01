@@ -1,3 +1,4 @@
+const sideBar = require('./utils/sidebar')
 module.exports = {
   "title": "Cheny's Blog",
   "description": "Cheny's Blog",
@@ -62,14 +63,7 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
-    },
+    "sidebar": sideBar.createSideBar('technology', ['img']),
     "type": "blog",
     "blogConfig": {
       "category": {
