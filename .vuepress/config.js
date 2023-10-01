@@ -2,6 +2,11 @@ module.exports = {
   title: "Cheny's Blog",
   description: "Cheny's Blog",
   dest: "public",
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   head: [
     [
       "link",
@@ -67,6 +72,12 @@ module.exports = {
         ],
       },
     ],
+    pagation: {
+      prev: '上一页',
+      next: '下一页',
+      go: '前往',
+      jump: '跳转至'
+    }
     // "sidebar": sideBar.createSideBar(),
     type: "blog",
     blogConfig: {
@@ -99,7 +110,7 @@ module.exports = {
     // 子侧边栏
     subSidebar: "auto",
     sidebarDepth: 1,
-    lastUpdated: "Last Updated",
+    lastUpdated: "更新时间",
     author: "夜屿",
     authorAvatar: "/avatar.jpg",
     record: "Cheny's Blog",
@@ -107,16 +118,5 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
-  },
-  plugins: [
-    [
-      "vuepress-plugin-nuggets-style-copy",
-      {
-        copyText: "copy",
-        tip: {
-          content: "复制成功!",
-        },
-      },
-    ],
-  ],
+  }
 }
