@@ -1,4 +1,4 @@
-const sideBar = require('./utils/sidebar')
+// const sideBar = require('./utils/sidebar')
 module.exports = {
   "title": "Cheny's Blog",
   "description": "Cheny's Blog",
@@ -63,7 +63,7 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": sideBar.createSideBar(),
+    // "sidebar": sideBar.createSideBar(),
     "type": "blog",
     "blogConfig": {
       "category": {
@@ -92,6 +92,9 @@ module.exports = {
     "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
+    // 子侧边栏
+    "subSidebar": 'auto',
+    "sidebarDepth": 1,
     "lastUpdated": "Last Updated",
     "author": "夜屿",
     "authorAvatar": "/avatar.jpg",
