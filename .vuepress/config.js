@@ -77,7 +77,7 @@ module.exports = {
       next: '下一页',
       go: '前往',
       jump: '跳转至'
-    }
+    },
     // "sidebar": sideBar.createSideBar(),
     type: "blog",
     blogConfig: {
