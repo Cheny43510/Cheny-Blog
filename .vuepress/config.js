@@ -1,81 +1,85 @@
-// const sideBar = require('./utils/sidebar')
 module.exports = {
-  "title": "Cheny's Blog",
-  "description": "Cheny's Blog",
-  "dest": "public",
-  "head": [
+  title: "Cheny's Blog",
+  description: "Cheny's Blog",
+  dest: "public",
+  head: [
     [
       "link",
       {
-        "rel": "icon",
-        "href": "/favicon.ico"
-      }
+        rel: "icon",
+        href: "/favicon.ico",
+      },
     ],
     [
       "meta",
       {
-        "name": "viewport",
-        "content": "width=device-width,initial-scale=1,user-scalable=no"
-      }
+        name: "viewport",
+        content: "width=device-width,initial-scale=1,user-scalable=no",
+      },
     ],
     [
-      'script', {}, `var _hmt = _hmt || [];
+      "script",
+      {},
+      `var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?591e4dedbc99415d51d0533277f99546";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
-      })();`
-    ]
+      })();`,
+    ],
   ],
-  "theme": "reco",
-  "themeConfig": {
-    "nav": [
+  markdown: {
+    lineNumbers: true, // 代码块显示行号
+  },
+  theme: "reco",
+  themeConfig: {
+    nav: [
       {
-        "text": "主页",
-        "link": "/",
-        "icon": "reco-home"
+        text: "主页",
+        link: "/",
+        icon: "reco-home",
       },
       {
-        "text": "时间线",
-        "link": "/timeline/",
-        "icon": "reco-date"
+        text: "时间线",
+        link: "/timeline/",
+        icon: "reco-date",
       },
       {
-        "text": "文档",
-        "icon": "reco-message",
-        "items": [
+        text: "文档",
+        icon: "reco-message",
+        items: [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
+            text: "vuepress-reco",
+            link: "/docs/theme-reco/",
+          },
+        ],
       },
       {
-        "text": "关于",
-        "icon": "reco-message",
-        "items": [
+        text: "关于",
+        icon: "reco-message",
+        items: [
           {
-            "text": "GitHub",
-            "link": "https://github.com/cheny43510",
-            "icon": "reco-github"
-          }
-        ]
-      }
+            text: "GitHub",
+            link: "https://github.com/cheny43510",
+            icon: "reco-github",
+          },
+        ],
+      },
     ],
     // "sidebar": sideBar.createSideBar(),
-    "type": "blog",
-    "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "分类"
+    type: "blog",
+    blogConfig: {
+      category: {
+        location: 2,
+        text: "分类",
       },
-      "tag": {
-        "location": 3,
-        "text": "标签"
-      }
+      tag: {
+        location: 3,
+        text: "标签",
+      },
     },
-    "friendLink": [
+    friendLink: [
       // {
       //   "title": "午后南杂",
       //   "desc": "Enjoy when you can, and endure when you must.",
@@ -89,19 +93,30 @@ module.exports = {
       //   "link": "https://vuepress-theme-reco.recoluan.com"
       // }
     ],
-    "logo": "/logo.jpg",
-    "search": true,
-    "searchMaxSuggestions": 10,
+    logo: "/logo.jpg",
+    search: true,
+    searchMaxSuggestions: 10,
     // 子侧边栏
-    "subSidebar": 'auto',
-    "sidebarDepth": 1,
-    "lastUpdated": "Last Updated",
-    "author": "夜屿",
-    "authorAvatar": "/avatar.jpg",
-    "record": "Cheny's Blog",
-    "startYear": "2020"
+    subSidebar: "auto",
+    sidebarDepth: 1,
+    lastUpdated: "Last Updated",
+    author: "夜屿",
+    authorAvatar: "/avatar.jpg",
+    record: "Cheny's Blog",
+    startYear: "2020",
   },
-  "markdown": {
-    "lineNumbers": true
-  }
+  markdown: {
+    lineNumbers: true,
+  },
+  plugins: [
+    [
+      "vuepress-plugin-nuggets-style-copy",
+      {
+        copyText: "copy",
+        tip: {
+          content: "复制成功!",
+        },
+      },
+    ],
+  ],
 }

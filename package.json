@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "vuepress": "1.9.7",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
     "vuepress-theme-reco": "1.6.17"
   },
   "description": "Cheny's Blog"
