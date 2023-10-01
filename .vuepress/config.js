@@ -97,6 +97,8 @@ module.exports = {
     ],
     "logo": "/logo.jpg",
     "search": true,
+    "sidebarDepth": 2,
+    "sidebarOpen": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "夜屿",
