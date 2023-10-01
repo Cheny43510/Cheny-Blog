@@ -63,7 +63,7 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": sideBar.createSideBar('technology', ['img']),
+    "sidebar": sideBar.createSideBar(),
     "type": "blog",
     "blogConfig": {
       "category": {
