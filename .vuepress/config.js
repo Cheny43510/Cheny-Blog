@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Cheny's Blog",
-  description: "Cheny's Blog",
+  title: "NisLand's Blog",
+  description: "NisLand's Blog",
   dest: "public",
   locales: {
     '/': {
@@ -66,7 +66,7 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/cheny43510",
+            link: "https://github.com/NisLand43510",
             icon: "reco-github",
           },
         ],
