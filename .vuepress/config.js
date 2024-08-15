@@ -113,7 +113,7 @@ module.exports = {
     lastUpdated: "更新时间",
     author: "夜屿",
     authorAvatar: "/avatar.jpg",
-    record: "Cheny's Blog",
+    record: "NisLand's Blog",
     startYear: "2020",
   },
   markdown: {
